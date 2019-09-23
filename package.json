@@ -1,0 +1,30 @@
+{
+  "name": "exposure",
+  "version": "1.0.0",
+  "description": "This is a simple site designed to sell t-shirts.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caitlin-cooling/exposure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caitlin-cooling/exposure/issues"
+  },
+  "homepage": "https://github.com/Caitlin-cooling/exposure#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.4.0",
+    "jasmine": "^3.5.0"
+  }
+}
