@@ -7,10 +7,12 @@ const header = new Vue({
 });
 
 const navBar = new Vue({
-  el: '#navBar',
+  el: '#nav-bar',
   data: {
-    items: [
+    leftItems: [
       { text: 'T&Cs', link: '/t&cs' },
+    ],
+    rightItems: [
       { text: 'Cart', link: '/cart' },
     ],
   },

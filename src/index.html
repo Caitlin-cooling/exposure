@@ -12,9 +12,14 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Covered+By+Your+Grace&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav id="navBar">
-    <a id="navHeading" href="/">Exposure</a>
-    <a class="navItem" v-for="item in items" v-bind:href="item.link">{{ item.text }}</a>
+  <nav id="nav-bar">
+    <a id="nav-heading" href="/">Exposure</a>
+    <div class="nav-left">
+        <a class="nav-item" v-for="item in leftItems" v-bind:href="item.link">{{ item.text }}</a>
+    </div>
+    <div class="nav-right">
+        <a class="nav-item" v-for="item in rightItems" v-bind:href="item.link">{{ item.text }}</a>
+    </div>
   </nav>
   <header id="header">
     <div class="container"></div>
