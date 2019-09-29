@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Covered+By+Your+Grace&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav id="navBar">
+    <a v-for="item in items" v-bind:href="item.link">{{ item.text }}</a>
+  </nav>
   <header id="header">
     <h1 class="heading">{{heading}}</h1>
     <p class="text">{{mission}}</p>
