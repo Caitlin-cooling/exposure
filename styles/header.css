@@ -1,13 +1,8 @@
-html {
-  calc(1em + 1vw)
-}
-
 #header {
   display: grid;
   grid-template-columns: 1fr 0.3fr 2fr 0.3fr 1fr;
   grid-template-rows: 0.5fr auto 1fr 0.5fr;
   flex-direction: column;
-  /* text-align: center; */
 }
 
 .container {
