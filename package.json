@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Caitlin-cooling/exposure#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "path": "^0.12.7",
     "vue": "^2.6.10",
     "webpack": "^4.40.2"

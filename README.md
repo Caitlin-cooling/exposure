@@ -7,3 +7,6 @@ This is a simple site designed to sell t-shirts.
 3. Run the file in `/build` that is generated
 4. To run eslint run `npm run eslint directoryName`
 5. To run stylelint for your css files use `stylelint "styles/*.css"`
+
+### Running
+1. To start the express server, use command `node backend/src/index.js`
