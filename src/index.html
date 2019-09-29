@@ -8,10 +8,21 @@
   <!-- Remove this one Vue package is sorted -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <link rel='stylesheet' type="text/css" href='../styles/header.css'></link>
+  <link rel='stylesheet' type="text/css" href='../styles/nav.css'></link>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Covered+By+Your+Grace&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav id="nav-bar">
+    <a id="nav-heading" href="/">Exposure</a>
+    <div class="nav-left">
+        <a class="nav-item" v-for="item in leftItems" v-bind:href="item.link">{{ item.text }}</a>
+    </div>
+    <div class="nav-right">
+        <a class="nav-item" v-for="item in rightItems" v-bind:href="item.link">{{ item.text }}</a>
+    </div>
+  </nav>
   <header id="header">
+    <div class="header-container"></div>
     <h1 class="heading">{{heading}}</h1>
     <p class="text">{{mission}}</p>
   </header>
