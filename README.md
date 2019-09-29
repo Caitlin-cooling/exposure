@@ -10,3 +10,5 @@ This is a simple site designed to sell t-shirts.
 
 ### Running
 1. To start the express server, use command `node backend/src/index.js`
+2. Use `mongod` to run the mongo daemon (please ensure that you have mongodb installed locally)
+3. n another terminal window run `mongo` to start the mongo server
