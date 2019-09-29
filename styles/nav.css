@@ -1,0 +1,27 @@
+#navBar {
+  display: grid;
+  grid-template-columns: 0.5fr auto 10fr auto 0.5fr;
+}
+
+#navHeading {
+  text-decoration: none;
+  color: black;
+  grid-column-start: 3;
+  margin: auto; 
+}
+
+.navItem {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto; 
+}
+
+.navItem:hover {
+  text-decoration: underline;
+}
+
+.navItem:last-child {
+  grid-column-start: 5;
+}
+
