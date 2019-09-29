@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Caitlin-cooling/exposure#readme",
   "dependencies": {
-    "vue": "^2.6.10"
+    "path": "^0.12.7",
+    "vue": "^2.6.10",
+    "webpack": "^4.40.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -29,6 +31,9 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^5.2.3",
-    "jasmine": "^3.5.0"
+    "jasmine": "^3.5.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "webpack-cli": "^3.3.9"
   }
 }
