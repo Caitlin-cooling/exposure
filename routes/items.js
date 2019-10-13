@@ -13,4 +13,14 @@ router.get('/', (req, res) => {
     });
 });
 
+router.post('/', (req, res) => {
+  db.Item.create(req.body)
+    .then((newItem) => {
+      res.json(newItem);
+    })
+    .catch((error) => {
+      res.send(error);
+    });
+});
+
 module.exports = router;
