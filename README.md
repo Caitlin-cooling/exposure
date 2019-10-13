@@ -9,6 +9,6 @@ This is a simple site designed to sell t-shirts.
 5. To run stylelint for your css files use `stylelint "styles/*.css"`
 
 ### Running
-1. To start the express server, use command `node src/index.js`
+1. To start the express server, use command `npm run start`
 2. Use `mongod` to run the mongo daemon (please ensure that you have mongodb installed locally)
 3. In another terminal window run `mongo` to start the mongo server
