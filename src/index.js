@@ -7,6 +7,8 @@ const port = 3000;
 app.use('/api/items', itemRoutes);
 app.use(express.static(__dirname + '/views'));
 
+app.use('/api/items', itemRoutes);
+
 app.get('/', (req, res) => {
   res.sendFile('index.html');
 });
